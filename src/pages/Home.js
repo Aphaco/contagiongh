@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import "./styles/Home.css";
 import img1 from "./images/eve4.jpg"
 import img2 from "./images/eve1.jpg"
-import img3 from "./images/eve3.jpg"
+// import img3 from "./images/eve3.jpg"
 import img4 from "./images/eve11.jpg"
 import img6 from "./images/eve10.jpg"
 import img8 from "./images/eve8.jpg"
