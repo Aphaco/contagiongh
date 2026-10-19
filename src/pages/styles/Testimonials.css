@@ -1,0 +1,115 @@
+/* ----------------------------------------
+   Hero Section
+---------------------------------------- */
+.testimonials-hero {
+    position: relative;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    max-width: 600px;
+    padding: 1rem 2rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+  
+  /* ----------------------------------------
+     Testimonials Grid
+  ---------------------------------------- */
+  .testimonials-page {
+    background: #fafafa;
+    padding: 4rem 2rem;
+  }
+  
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+  /* ----------------------------------------
+     Glassmorphic Testimonial Cards
+  ---------------------------------------- */
+  .testimonial-card {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    max-width: 360px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Placeholder for client pic */
+  .client-pic {
+    width: 80px;
+    height: 80px;
+    background: #ddd;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+  }
+  
+  /* Quote styling */
+  .quote {
+    font-style: italic;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+  }
+  
+  /* Client Name & Company */
+  .client-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.25rem;
+  }
+  
+  .client-company {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* ----------------------------------------
+     Responsive
+  ---------------------------------------- */
+  @media (max-width: 600px) {
+    .testimonials-hero {
+      height: 40vh;
+    }
+    .hero-content h1 {
+      font-size: 2.5rem;
+    }
+    .testimonials-page {
+      padding: 2rem 1rem;
+    }
+  }
+  

@@ -1,0 +1,136 @@
+/* Hero Section */
+.contact-hero {
+    background: linear-gradient(135deg, #7f334a 0%, #a84e69 100%);
+    color: #fff;
+    padding: 6rem 2rem;
+    text-align: center;
+  }
+  
+  .contact-hero-content {
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  .contact-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Main Content */
+  .contact-content {
+    display: flex;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: -4rem auto 4rem;
+    padding: 0 2rem;
+    flex-wrap: wrap;
+    background: #fff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    flex: 1;
+    padding: 2rem;
+    background: #f9f2f5;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .info-icon {
+    font-size: 1.8rem;
+    color: #7f334a;
+    margin-right: 1rem;
+  }
+  
+  .info-item h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .info-item p {
+    margin: 0.25rem 0 0;
+    color: #555;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    flex: 2;
+    padding: 2rem;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    flex: 1;
+  }
+  
+  .form-group label {
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 0.75rem 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #7f334a;
+    box-shadow: 0 0 8px rgba(127, 51, 74, 0.3);
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    background: #7f334a;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-btn:hover {
+    background: #a84e69;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive */
+  @media (max-width: 900px) {
+    .contact-content {
+      flex-direction: column;
+      margin-top: -2rem;
+    }
+    .form-row {
+      flex-direction: column;
+    }
+  }
+  
